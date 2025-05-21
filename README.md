@@ -3,6 +3,7 @@
 ## Getting Started
 
 ```bash
-go install github.com/morban/azt@latest
+go install github.com/moreban/azt/cli/azt@latest
+azt --help
 azt
 ```
