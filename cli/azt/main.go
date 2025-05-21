@@ -10,13 +10,14 @@ import (
 	"github.com/hedzr/cmdr/v2/cli"
 	"github.com/hedzr/cmdr/v2/examples/devmode"
 	"github.com/hedzr/cmdr/v2/pkg/logz"
+	"github.com/moreban/azt/cli/azt/consts"
 )
 
 const (
-	appName = "blueprint"
-	desc    = `a good blueprint for you.`
-	version = cmdr.Version
-	author  = `The Examples Authors`
+	appName = consts.AppName
+	desc    = consts.Description
+	version = consts.Version
+	author  = `Azt Authors`
 )
 
 func main() {
