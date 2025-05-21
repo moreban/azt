@@ -5,11 +5,11 @@ import (
 	"os"
 
 	loaders "github.com/hedzr/cmdr-loaders"
-	"github.com/hedzr/cmdr-tests/examples/blueprint/cmd"
 	"github.com/hedzr/cmdr/v2"
 	"github.com/hedzr/cmdr/v2/cli"
 	"github.com/hedzr/cmdr/v2/examples/devmode"
 	"github.com/hedzr/cmdr/v2/pkg/logz"
+	"github.com/moreban/azt/cli/azt/cmd"
 	"github.com/moreban/azt/cli/azt/consts"
 )
 
