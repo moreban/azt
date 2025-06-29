@@ -1,0 +1,12 @@
+go 1.23.3
+
+use (
+	.
+	./cli/azt
+
+	// ../../cmdr.v2/cmdr
+	// ../../cmdr.v2/libs.is
+	// ../../cmdr.v2/libs.logg
+	// ../../cmdr.v2/libs.diff
+	// ../../cmdr.v2/libs.store
+)
