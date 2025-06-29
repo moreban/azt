@@ -31,26 +31,6 @@ jobs:
         run: |
           make V=1 release -j$(nproc)
 
-      # # This step reads a file from repo and use it for body of the release
-      # # This works on any self-hosted runner OS
-      # - name: Read release.md and use it as a body of new release
-      #   id: read_release
-      #   shell: bash
-      #   run: |
-      #     RELEASE_VERSION=${GITHUB_REF#refs/*/}
-      #     VERSION=${RELEASE_VERSION/v/}
-      #     # echo "RELEASE_VERSION=${RELEASE_VERSION}" >> $GITHUB_ENV
-      #     # echo "VERSION=${RELEASE_VERSION/v/}" >> $GITHUB_ENV
-      #     if [ -f ./release.md ]; then
-      #       r=$(cat ./release.md)                             # <--- Read release.md (Provide correct path as per your repo)
-      #       r="${r//'%'/'%25'}"                               # Multiline escape sequences for %
-      #       r="${r//$'\n'/'%0A'}"                             # Multiline escape sequences for '\n'
-      #       r="${r//$'\r'/'%0D'}"                             # Multiline escape sequences for '\r'
-      #       echo "RELEASE_BODY=$r" >> $GITHUB_OUTPUT          # <--- Set environment variable
-      #     else
-      #       echo "RELEASE_BODY='Changelog of commits: [..${RELEASE_VERSION}](https://github.com/${GITHUB_REPOSITORY}/compare/...${RELEASE_VERSION})'" >> $GITHUB_OUTPUT
-      #     fi
-
       - name: Release
         uses: softprops/action-gh-release@v2
         if: startsWith(github.ref, 'refs/tags/')
