@@ -8,6 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      discussions: write
     # permissions: write-all # this is the FIX
     steps:
       - name: Install Go
