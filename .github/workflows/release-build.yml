@@ -60,7 +60,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           # # tag: ${{ github.ref }}
           # tag_name: ${{ github.ref_name }}
-          name: ${{ env.TAG_NAME }}
+          # name: ${{ env.TAG_NAME }}
           # # overwrite: true
           # overwrite_files: true
           # prerelease: true
