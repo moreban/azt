@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>简介 on Azt-Go Docs</title><link>https://moreban.github.io/azt/zh/</link><description>Recent content in 简介 on Azt-Go Docs</description><generator>Hugo</generator><language>zh-CN</language><atom:link href="https://moreban.github.io/azt/zh/index.xml" rel="self" type="application/rss+xml"/><item><title>基本介绍</title><link>https://moreban.github.io/azt/zh/developer/overview/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://moreban.github.io/azt/zh/developer/overview/</guid><description>&lt;p>Azt-Go 的核心部分有&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>1&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>2&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>3&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>可以在对应文件夹中找到相关源代码。&lt;/p></description></item><item><title>构建，以及贡献</title><link>https://moreban.github.io/azt/zh/developer/build/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://moreban.github.io/azt/zh/developer/build/</guid><description>&lt;p>编译需要 Go 1.23+，请注意保重基本编译环境。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>make
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>make install &lt;span style="color:#75715e"># 安装systemd服务等，可选&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>或者直接使用Go进行编译：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>go build -tags &lt;span style="color:#e6db74">&amp;#34;full&amp;#34;&lt;/span> &lt;span style="color:#75715e"># 编译完整版本&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>可以通过指定GOOS和GOARCH环境变量，指定交叉编译的目标操作系统和架构，例如&lt;/p></description></item><item><title>正确配置 Azt-Go</title><link>https://moreban.github.io/azt/zh/guide/config/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://moreban.github.io/azt/zh/guide/config/</guid><description>&lt;p>下面将介绍如何正确配置 Azt-Go。&lt;/p></description></item><item><title>完整的配置文件</title><link>https://moreban.github.io/azt/zh/guide/full-config/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://moreban.github.io/azt/zh/guide/full-config/</guid><description>&lt;p>下面是一个完整的配置文件，其中的必填选项有&lt;/p></description></item><item><title>API开发</title><link>https://moreban.github.io/azt/zh/developer/api/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://moreban.github.io/azt/zh/developer/api/</guid><description/></item></channel></rss>

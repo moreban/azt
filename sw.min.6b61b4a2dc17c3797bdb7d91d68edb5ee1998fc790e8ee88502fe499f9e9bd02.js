@@ -1,0 +1,1 @@
+navigator.serviceWorker&&navigator.serviceWorker.register("/azt/sw.js",{scope:"/azt/"})
